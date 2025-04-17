@@ -1,0 +1,66 @@
+{
+  "company": "ABC Corporation",
+  "employees": [
+    {
+      "id": 1,
+      "name": "John Doe",
+      "position": "Software Engineer",
+      "department": "Engineering",
+      "skills": ["Java", "Python", "JavaScript"],
+      "contact": {
+        "email": "john.doe@example.com",
+        "phone": "+1234567890",
+        "address": {
+          "street": "123 Main St",
+          "city": "Anytown",
+          "state": "CA",
+          "zip": "12345",
+          "country": "USA"
+        }
+      },
+      "projects": [
+        {
+          "name": "Project Alpha",
+          "role": "Lead Developer",
+          "startDate": "2023-01-15",
+          "endDate": "2023-06-30",
+          "description": "Developing a new web application."
+        },
+        {
+          "name": "Project Beta",
+          "role": "Backend Developer",
+          "startDate": "2023-07-15",
+          "endDate": "2023-12-31",
+          "description": "Implementing RESTful APIs."
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Jane Smith",
+      "position": "Data Scientist",
+      "department": "Data Science",
+      "skills": ["R", "Python", "SQL"],
+      "contact": {
+        "email": "jane.smith@example.com",
+        "phone": "+1987654321",
+        "address": {
+          "street": "456 Elm St",
+          "city": "Othertown",
+          "state": "NY",
+          "zip": "54321",
+          "country": "USA"
+        }
+      },
+      "projects": [
+        {
+          "name": "Project Gamma",
+          "role": "Data Analyst",
+          "startDate": "2022-10-01",
+          "endDate": "2023-03-31",
+          "description": "Analyzing customer data."
+        }
+      ]
+    }
+  ]
+}

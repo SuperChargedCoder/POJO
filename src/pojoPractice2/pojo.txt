@@ -1,0 +1,32 @@
+public class Author{
+    public String name;
+    public String nationality;
+    public int birthYear;
+    public ArrayList<Book> books;
+}
+
+public class Book{
+    public String title;
+    public Author author;
+    public ArrayList<String> genre;
+    public int publicationYear;
+    public String publisher;
+    public String isbn;
+    public ArrayList<Review> reviews;
+}
+
+public class Book2{
+    public String title;
+    public int year;
+}
+
+public class Review{
+    public String user;
+    public int rating;
+    public String comment;
+}
+
+public class Root{
+    public Book book;
+}
+

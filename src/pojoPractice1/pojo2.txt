@@ -1,0 +1,38 @@
+
+public class Address{
+    public String street;
+    public String city;
+    public String state;
+    public String zip;
+    public String country;
+}
+
+public class Contact{
+    public String email;
+    public String phone;
+    public Address address;
+}
+
+public class Employee{
+    public int id;
+    public String name;
+    public String position;
+    public String department;
+    public ArrayList<String> skills;
+    public Contact contact;
+    public ArrayList<Project> projects;
+}
+
+public class Project{
+    public String name;
+    public String role;
+    public String startDate;
+    public String endDate;
+    public String description;
+}
+
+public class Root{
+    public String company;
+    public ArrayList<Employee> employees;
+}
+

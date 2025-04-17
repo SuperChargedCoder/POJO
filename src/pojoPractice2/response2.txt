@@ -1,0 +1,41 @@
+{
+  "book": {
+    "title": "The Shadow of the Wind",
+    "author": {
+      "name": "Carlos Ruiz Zafón",
+      "nationality": "Spanish",
+      "birthYear": 1964,
+      "books": [
+        {
+          "title": "The Angel's Game",
+          "year": 2008
+        },
+        {
+          "title": "The Prisoner of Heaven",
+          "year": 2011
+        }
+      ]
+    },
+    "genre": ["Mystery", "Historical Fiction", "Gothic"],
+    "publicationYear": 2001,
+    "publisher": "Penguin Books",
+    "isbn": "978-0143034902",
+    "reviews": [
+      {
+        "user": "Reader1",
+        "rating": 5,
+        "comment": "A captivating story with beautifully written prose. Highly recommended!"
+      },
+      {
+        "user": "Reader2",
+        "rating": 4,
+        "comment": "Engaging characters and a compelling plot. Thoroughly enjoyed it!"
+      },
+      {
+        "user": "Reader3",
+        "rating": 5,
+        "comment": "A literary masterpiece. Zafón's storytelling is mesmerizing."
+      }
+    ]
+  }
+}

@@ -1,0 +1,29 @@
+public class Api{
+    public String courseTitle;
+    public String price;
+}
+
+public class Courses{
+    public ArrayList<WebAutomation> webAutomation;
+    public ArrayList<Api> api;
+    public ArrayList<Mobile> mobile;
+}
+
+public class Mobile{
+    public String courseTitle;
+    public String price;
+}
+
+public class Root{
+    public String instructor;
+    public String url;
+    public String services;
+    public String expertise;
+    public Courses courses;
+    public String linkedIn;
+}
+
+public class WebAutomation{
+    public String courseTitle;
+    public String price;
+}
